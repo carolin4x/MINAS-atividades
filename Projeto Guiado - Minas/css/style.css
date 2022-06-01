@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+.menu{
+    padding: 30px;
+    background-color: black;
+    text-align: center;
+    
+}
+
+.foto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 40px;
+    width: 25%;
+    border-radius: 50px;
+}
+
+h1, h2{
+    color: rgb(209, 209, 209);
+    padding: 20px;
+}
+
+.cabecalho{
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.cabecalho h3{
+    color: rgb(117, 117, 117);
+    padding: 1px;
+    margin-bottom: 20px;
+}
+.cabecalho h4{
+    background-color: #932c8b;
+    margin-top: 40px;
+    padding: 9px;
+    color: rgb(209, 209, 209);
+    text-align: center ;
+}
+
+
+div{
+    display: inline-block;
+    width: 25%;
+    
+}
+
+
+.img{
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    
+}
+
+.bio { 
+    color: #932c8b;
+    text-align: center ;
+
+
+}
+
+.contato {  
+    background-color: rgb(151, 151, 151);
+    display: flex;
+    justify-content:space-evenly;
+    
+
+}
+
+.logo { 
+    padding: 50px;
+}
+
+.conteudo{ 
+    font-style:bold;
+}
+
+/*
+.blocos { 
+    display: inline-block;
+    width: 25%; 
+}
+*/
