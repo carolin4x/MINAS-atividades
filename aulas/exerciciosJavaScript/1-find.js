@@ -221,33 +221,3 @@ const bonde = [
     saldoNaConta: 132.14,
   },
 ];
-
-//console.log(bonde.length);
-
-//Aqui o 'find' vai localizar e retornar o PRIMEIRO item solicitado na busca e toda sua informação constante no objeto 
-//console.log(bonde.find((valor) => valor.saldoNaConta >= 5000));
-
-
-//Aqui o 'findIndex' vai localizar e retornar o PRIMEIRO item solicitado, porem apenas sua posição do array.
-//console.log(bonde.findIndex((valor) => valor.saldoNaConta >= 5000));
-
-
-//Aqui o 'every' vai retornar um resultado boleano.
-//console.log(bonde.every((pessoa) => !!pessoa.pets.length));
-
-/*Aqui o 'filter' vai nos retornar todos os resultados solicitados.
-Como ele cria um novo array com a info, é preciso decalarar ele como fizemos com a const abaixo.*/
-const bondePets = console.log(bonde.filter((pessoa) => pessoa.pets.length == 2));
-
-const bondeMoney = bonde.filter((pessoa) => pessoa.saldoNaConta >= 30000 );
-console.log(bondeMoney);
-
-const bondeNaoVeggie = bonde.filter((pessoa) => pessoa.vegetariana ==! true);
-console.log(bondeNaoVeggie);
-
-/*O 'forEach' vai varrer todo o meu array, podendo ter 3 parametros (pessoa, index e array) */
-bonde.forEach
-
-/*o 'map' vai mapear um array, podendo ter 3 parametros (pessoa, index e array) */
-const bondeFriends = bonde.map(pessoas => pessoas.seriesPreferiadas.find(el => el === "Friends"));
-console.log(bondeFriends);
